@@ -29,7 +29,7 @@ header ul li {
   height: 40px;
 }
 
-.nav2 {
+.LoginAndJoin_Nav {
   padding-right: 51px;
 }
 
@@ -216,7 +216,7 @@ footer div img {
 .main_content2_more a {
   font-size: 20px;
   color: aliceblue;
-  border: 1px ;
+  border: 1px;
   border-radius: 1em;
   padding: 3px 50px 3px 50px;
   background-color: rgb(90, 87, 87);
@@ -230,4 +230,31 @@ footer div img {
 .main_content3 img {
   width: 50%;
   padding: 0 10px 0 10px;
+}
+
+/* 방 내놓기 nav*/
+.PutOutRoom_Nav {
+  margin: 10px 60% 10px 15%;
+}
+
+.porN_list {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 직영 임대 주기 */
+.directRent_banner {
+  background-image: url("https://static.wixstatic.com/media/bcffd4_726b63fbe9654e6ab44a5241ae3304c4~mv2.png/v1/fill/w_1903,h_380,al_c,q_90,usm_0.66_1.00_0.01/bcffd4_726b63fbe9654e6ab44a5241ae3304c4~mv2.webp");
+  text-align: center;
+}
+
+.drb_text1 {
+  font-size: 30px;
+}
+
+.drb_text2 {
+  font-size: 50px;
+}
+
+.drb_link {
 }
