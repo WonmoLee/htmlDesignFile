@@ -3,6 +3,10 @@ li {
   list-style: none;
 }
 
+body {
+  margin: 0;
+}
+
 /* 헤더 */
 header {
   display: flex;
@@ -82,7 +86,6 @@ footer div img {
 }
 
 /* 섹션 */
-
 .main_banner {
   background-image: url("img/main_banner.jpg");
   background-size: 100%;
@@ -242,19 +245,235 @@ footer div img {
   justify-content: space-between;
 }
 
+.porN_list li a {
+  text-decoration: none;
+}
+
 /* 직영 임대 주기 */
 .directRent_banner {
   background-image: url("https://static.wixstatic.com/media/bcffd4_726b63fbe9654e6ab44a5241ae3304c4~mv2.png/v1/fill/w_1903,h_380,al_c,q_90,usm_0.66_1.00_0.01/bcffd4_726b63fbe9654e6ab44a5241ae3304c4~mv2.webp");
   text-align: center;
+  padding: 30px 0 60px 0;
 }
 
 .drb_text1 {
   font-size: 30px;
+  padding: 30px 0 30px 0;
 }
 
 .drb_text2 {
   font-size: 50px;
+  padding-bottom: 30px;
 }
 
 .drb_link {
+  border: 1px solid;
+  border-radius: 2em;
+  border-color: black;
+  padding: 7px 50px 7px 50px;
+  font-size: 25px;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.directRent_content1 {
+  text-align: center;
+  padding: 40px 0 20px 0;
+}
+
+.directRent_content1 h4 {
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.directRent_content1 h2 {
+  font-size: 40px;
+  font-weight: normal;
+}
+
+
+.directRent_content2_list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+}
+
+.directRent_content2_list li {
+  border: 2px solid;
+  border-color: rgb(240, 240, 240);
+  background-color: rgb(240, 240, 240);
+  width: 24%;
+  padding: 100px 0 100px 0;
+  text-align: center;
+}
+
+.directRent_content3 {
+  padding: 70px 0 80px 0;
+  text-align: center;
+}
+
+.directRent_content3 h4 {
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.directRent_content3 h3 {
+  font-size: 27px;
+}
+
+.directRent_content4 {
+  text-align: center;
+  padding: 50px 0 50px 0;
+}
+
+.directRent_content4 h4 {
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.directRent_content4 h2 {
+  font-size: 30px;
+  padding-bottom: 40px;
+}
+
+.directRent_content4_list {
+  display: flex;
+  justify-content: center;
+}
+
+.directRent_content4_list li {
+  padding: 50px 150px 50px 150px;
+  border: 1px solid;
+  border-color: rgb(240, 240, 240);
+  box-shadow: 0px 4px 21px 1px rgba(0, 0, 0, 0.1);
+  font-size: 22px;
+}
+
+.directRent_content4_list li span {
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+.directRent_content4_list img {
+  width: 10%;
+  height: 10%;
+  margin: 5% 20px 0 20px;
+}
+
+.directRent_content5 {
+  margin: 50px 0 50px 0;
+  background-color: rgb(240, 240, 240);
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 50px;
+}
+
+.directRent_content5 h2 {
+  font-weight: normal;
+  padding-top: 100px;
+}
+
+.directRent_content5_list {
+  display: flex;
+  justify-content: center;
+}
+
+.directRent_content6 {
+  padding: 50px 0 50px 0;
+  text-align: center;
+}
+
+.directRent_content6 h3 {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.directRent_content6_list {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.directRent_content6_list h4 {
+  font-size: 20px;
+}
+
+.directRent_content6_list li {
+  width: 25%;
+  font-size: 20px;
+  margin: 1%;
+  padding: 5%;
+  box-shadow: 0px 4px 21px 1px rgba(0, 0, 0, 0.1);
+}
+
+.directRent_content7 {
+  text-align: center;
+  background-color: rgb(240, 240, 240);
+  padding: 35px 0 35px 0;
+  height: 320px;
+}
+
+.directRent_content7 h2 {
+  font-weight: normal;
+  font-size: 35px;
+}
+
+.directRent_content7_list {
+  margin: 0 30% 0 30%;
+  padding: 130px 0 50px 0;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 21px 1px rgba(0, 0, 0, 0.1);
+}
+
+.directRent_content7 li {
+  padding: 10px 0 70px 0;
+}
+
+.directRent_content7_list li input {
+  width: 50%;
+  padding: 10px 50px 10px 50px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.directRent_content7 li a {
+  text-decoration: none;
+  font-size: 25px;
+  border: 1px solid;
+  border-radius: 2em;
+  background-color: #E64E5D;
+  color: rgb(255, 255, 255);
+  padding: 5px 150px 5px 150px;
+}
+
+.directRent_content8 {
+  margin: 400px 25% 100px 25%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.directRent_content8_list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.directRent_content9 {
+  background-image: url("https://static.wixstatic.com/media/bcffd4_d52afa9d7c5d448cbbf290dd3bafabf8~mv2.png/v1/fill/w_1602,h_213,al_c,q_85/bcffd4_d52afa9d7c5d448cbbf290dd3bafabf8~mv2.webp");
+  background-size: 100%;
+  text-align: center;
+  padding: 20px 0 50px 0;
+}
+
+.directRent_content9 h2 {
+  font-size: 30px;
+}
+
+.directRent_content9 a {
+  text-decoration: none;
+  border: 2px solid;
+  border-radius: 2em;
+  padding: 5px 70px 5px 70px;
+  font-size: 20px;
 }
