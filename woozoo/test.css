@@ -292,7 +292,6 @@ footer div img {
   font-weight: normal;
 }
 
-
 .directRent_content2_list {
   display: flex;
   justify-content: space-between;
@@ -443,7 +442,7 @@ footer div img {
   font-size: 25px;
   border: 1px solid;
   border-radius: 2em;
-  background-color: #E64E5D;
+  background-color: #e64e5d;
   color: rgb(255, 255, 255);
   padding: 5px 150px 5px 150px;
 }
@@ -476,4 +475,25 @@ footer div img {
   border-radius: 2em;
   padding: 5px 70px 5px 70px;
   font-size: 20px;
+}
+
+.findRoom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 875px;
+}
+
+.findRoom_houseList {
+  width: 50%;
+}
+
+.findRoom_houseList_nav {
+  position: fixed;
+  padding: 20px 50px 20px 50px;
+}
+
+.findRoom_map {
+  width: 50%;
+  height: 100%;
 }
