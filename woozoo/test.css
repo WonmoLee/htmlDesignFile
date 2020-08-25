@@ -1,93 +1,6 @@
-/* 공통 */
-li {
-  list-style: none;
-}
-
-body {
-  margin: 0;
-}
-
-/* 헤더 */
-header {
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid;
-  border-color: rgb(217, 217, 217);
-}
-
-header h1 {
-  padding-left: 200px;
-}
-
-header ul {
-  display: flex;
-}
-
-header ul li {
-  padding: 20px 50px 0 50px;
-}
-
-.mainLogo {
-  /* padding-left: 100px; */
-  width: 100px;
-  height: 40px;
-}
-
-.LoginAndJoin_Nav {
-  padding-right: 51px;
-}
-
-/* 푸터 */
-footer {
-  padding-left: 400px;
-  padding-right: 400px;
-  background-color: #333333;
-  color: rgb(139, 135, 135);
-}
-
-footer div img {
-  padding: 6px 0 0 40px;
-}
-
-.footer_info1 {
-  display: flex;
-}
-
-.footer_info1 ul {
-  display: flex;
-}
-
-.footer_info1 ul li {
-  padding: 0 10px 0 10px;
-  color: rgb(214, 206, 206);
-}
-
-.footer_info2 {
-  display: flex;
-  font-size: 13px;
-}
-
-.footer_r1 {
-  margin-left: 360px;
-  font-size: 27px;
-  border: 2px solid;
-  border-color: rgb(214, 206, 206);
-  border-radius: 1em;
-}
-
-.footer_r2 {
-  display: flex;
-  margin-left: 460px;
-}
-
-.footer_r2 img {
-  width: 40px;
-  height: 40px;
-}
-
-/* 섹션 */
+/* �꽮�뀡 */
 .main_banner {
-  background-image: url("img/main_banner.jpg");
+  background-image: url("/img/main_banner.jpg");
   background-size: 100%;
   width: 100%;
   height: 450px;
@@ -235,7 +148,7 @@ footer div img {
   padding: 0 10px 0 10px;
 }
 
-/* 방 내놓기 nav*/
+/* 諛� �궡�넃湲� nav*/
 .PutOutRoom_Nav {
   margin: 10px 60% 10px 15%;
 }
@@ -249,7 +162,7 @@ footer div img {
   text-decoration: none;
 }
 
-/* 직영 임대 주기 */
+/* 吏곸쁺 �엫�� 二쇨린 */
 .directRent_banner {
   background-image: url("https://static.wixstatic.com/media/bcffd4_726b63fbe9654e6ab44a5241ae3304c4~mv2.png/v1/fill/w_1903,h_380,al_c,q_90,usm_0.66_1.00_0.01/bcffd4_726b63fbe9654e6ab44a5241ae3304c4~mv2.webp");
   text-align: center;
@@ -490,10 +403,41 @@ footer div img {
 
 .findRoom_houseList_nav {
   position: fixed;
-  padding: 20px 50px 20px 50px;
 }
 
 .findRoom_map {
   width: 50%;
   height: 100%;
+}
+
+.findRoom_houseList {
+  padding-left: 100px;
+}
+
+.findRoom_houseList_nav {
+  width: 45%;
+  margin-top: 50px;
+}
+
+.findRoom_houseList_nav img {
+  height: 50px;
+  margin-top: 7px;
+}
+
+.findRoom_houseList_nav input {
+  width: 70%;
+  padding-top: -50px;
+  vertical-align: top;
+  margin-top: 5px;
+  font-size: 20px;
+  padding: 15px 120px 15px 20px;
+  border-color: white;
+  background-color: #ededed;
+  border: 1px;
+  border-radius: 3em;
+}
+
+.findRoom_houseDetailList {
+  margin-top: 160px;
+  margin-right: 40px;
 }
