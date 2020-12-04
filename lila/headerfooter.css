@@ -2,6 +2,8 @@
 li, a {
   list-style: none;
   text-decoration: none;
+  color: black;
+  font-size: 15px;
 }
 
 /* 헤더 */
@@ -54,5 +56,83 @@ input:focus {
 .nav_right ul{
     display: flex;
     justify-content: space-between;
-    line-height: 5;
+    line-height: 4;
+}
+
+/* 푸터 */
+footer {
+    padding: 2% 20% 2% 20%;
+}
+
+.footer_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ft_content1 h2 {
+    margin-top: 0;
+}
+
+.ft_content1 p a {
+    font-weight: lighter;
+    color: gray;
+}
+
+.ft_content2 h3 {
+    margin-top: 10%;
+}
+
+.ft_content2 p a {
+    font-weight: lighter;
+    color: gray;
+}
+
+.ft_content3 h3 {
+    margin-top: 2%;
+}
+
+.ft_content3 h3 span {
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.ft_content3 a img {
+    width: 100%;
+    border: outset;
+}
+
+.footer_bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fb_left {
+    width: 45%;
+}
+
+.fb_left_top {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    width: 80%;
+    margin: 5px 0 5px 0;
+}
+
+.fb_left ul li a {
+    font-size: 12px;
+}
+
+.fb_left_bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    width: 100%;
+    margin: 10px 0 5px 0;
+}
+
+.fb_right {
+    margin-top: 1%;
+    width: 50%;
+    font-size: 13px;
+    color: gray;
 }
