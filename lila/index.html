@@ -3,11 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="headerfooter.css">
+    <link rel="stylesheet" type="text/css" href="lila.css">
     <title>LILA</title>
 </head>
 <body>
     <header>
-        
-    </header>
+        <h1><a href="#"><img class="mainLogo" src="img/lilaLg.png"></a></h1>
+        <nav class="nav_left">
+          <ul>
+            <input placeholder="어떤 동호회에 가입하고 싶으신가요?"/>
+          </ul>
+        </nav>
+        <nav class="nav_right">
+            <ul>
+            <li><a href="#">로그인 및 회원가입</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section>
+          <nav class="menu_nav">
+            <h1><a href="#"><img class="menuIcon" src="img/menu.png"></a></h1>
+            <p><a href="#">보상원정대</a></p>
+            <p><a href="#">크리에이티브</a></p>
+            <p><a href="#">머니</a></p>
+            <p><a href="#">커리어</a></p>
+            <p><a href="#">키즈</a></p>
+            <p><a href="#">시그너처</a></p>
+            <p><a href="#">리브레</a></p>
+            <p><a href="#">스토어</a></p>
+          </nav>
+          <div class="carousel-container">
+            <div class="carousel-slide">
+              <img src="img/slide2.png" id="lastClone">
+              <img src="img/slide1.png">
+              <img src="img/slide2.png">
+              <img src="img/slide1.png" id="firstClone">
+            </div>
+            <button id="prevBtn">Prev</button>
+            <button id="nextBtn">Next</button>
+          </div>
+      </section>
 </body>
+<script src="carousel.js"></script>
 </html>
