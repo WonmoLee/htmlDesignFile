@@ -6,6 +6,10 @@ li, a {
   font-size: 15px;
 }
 
+body {
+    margin: 0;
+}
+
 /* 헤더 */
 header {
     display: flex;
