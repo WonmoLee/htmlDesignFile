@@ -142,3 +142,61 @@
 .nextBtn:hover {
   box-shadow: 0px 4px 21px 1px rgba(0, 0, 0, 0.1);
 }
+
+.index_content1 {
+  margin: 5% 20% 0 20%;
+}
+
+.main_point {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  width: 100%;
+}
+
+.main_point li {
+  width: 13%;
+  text-align: center;
+}
+
+.main_point li a img {
+  width: 60%;
+}
+
+.index_content2 {
+  margin: 5% 20% 0 20%;
+}
+
+.index_content2 a {
+  padding: 3% 39% 3% 5%;
+  background-color: orange;
+  border: 1px solid;
+  font-size: 20px;
+  color: white;
+  font-weight: lighter;
+}
+
+.index_content2 a span {
+  font-weight: bold;
+}
+
+
+
+
+
+
+/*타임*/
+#count {
+	height: 167px;
+	color: #000;
+	padding-left: 100px;
+	padding-top:130px;
+	background-image: url(http://www.blueb.co.kr/data/201302/IJ13607483252985/12.jpg);
+	background-repeat: no-repeat;
+}
+#bt {
+	height: 16px;
+	width: 49;
+	padding-left: 100px;
+	padding-top: 0px;
+}
