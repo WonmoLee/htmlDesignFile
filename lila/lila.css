@@ -180,23 +180,11 @@
   font-weight: bold;
 }
 
-
-
-
-
-
-/*타임*/
-#count {
+/* 시간 카운터 */
+#counter {
+  display: flex;
 	height: 167px;
-	color: #000;
-	padding-left: 100px;
-	padding-top:130px;
-	background-image: url(http://www.blueb.co.kr/data/201302/IJ13607483252985/12.jpg);
-	background-repeat: no-repeat;
-}
-#bt {
-	height: 16px;
-	width: 49;
-	padding-left: 100px;
-	padding-top: 0px;
+	color: orangered;
+  font-size: 25px;
+  font-weight: bolder;
 }
