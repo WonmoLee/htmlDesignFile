@@ -11,9 +11,24 @@ function getTime() {
     seconds = (dday - now) / 1000 - (24 * 60 * 60 * daysRound) - (60 * 60 * hoursRound) - (60 * minutesRound); 
     secondsRound = Math.round(seconds); 
     
-    document.getElementById("counter1").innerHTML = hoursRound; 
-    document.getElementById("counter2").innerHTML = minutesRound; 
-    document.getElementById("counter3").innerHTML = secondsRound; 
+    if(hoursRound < 10) {
+        document.getElementById("counter1").innerHTML = "0" + hoursRound;
+    } else {
+        document.getElementById("counter1").innerHTML = hoursRound;
+    }
+     
+    if (minutesRound < 10) {
+        document.getElementById("counter2").innerHTML = "0" + minutesRound;
+    } else {
+        document.getElementById("counter2").innerHTML = minutesRound; 
+    }
+
+    if(secondsRound < 10) {
+        document.getElementById("counter3").innerHTML = "0" + secondsRound;
+    } else {
+        document.getElementById("counter3").innerHTML = secondsRound;
+    }
+
     newtime = window.setTimeout("getTime();", 1000); 
 } 
 getTime();
