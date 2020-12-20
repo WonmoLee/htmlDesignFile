@@ -1,7 +1,8 @@
+'use strict';
+
 function getTime() { 
     now = new Date(); 
     dday = new Date(2023,12,15,14,00,00); 
-    console.log(dday - now);
     days = (dday - now) / 1000 / 60 / 60 / 24;
     daysRound = Math.floor(days); 
     hours = (dday - now) / 1000 / 60 / 60 - (24 * daysRound); 

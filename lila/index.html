@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="headerfooter.css">
     <link rel="stylesheet" type="text/css" href="lila.css">
+    <script defer src="carousel.js"></script>
+    <script defer src="saleCount.js"></script>
+    <script defer src="modal.js"></script>
     <title>LILA</title>
 </head>
 <body>
@@ -20,6 +23,15 @@
         </nav>
       </header>
       <section>
+          <div class="modal hidden">
+            <div class="md_overlay"></div>
+              <div class="md_content">
+                <button class="close_button">X</button>
+                <p>2020 보상원정대</p>
+                <h2>새해 소망에 투표하면<br>총 천만원 혜택 당첨!</h2>
+                <a href="#">3초만에 투표하기</a>
+              </div>
+          </div>
           <nav class="menu_nav">
             <h1><a href="#"><img class="menuIcon" src="img/menu.png"></a></h1>
             <p><a href="#">보상원정대</a></p>
@@ -135,6 +147,4 @@
             </div>
       </section>
 </body>
-<script src="carousel.js"></script>
-<script src="saleCount.js"></script>
 </html>

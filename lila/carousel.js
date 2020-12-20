@@ -1,3 +1,5 @@
+'use strict';
+
 const SHOWING_CLASS = "showing";
 const firstSlide = document.querySelector(".slider_item:first-child");
 const lastSlide = document.querySelector(".slider_item:last-child");
