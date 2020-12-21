@@ -242,12 +242,88 @@
   font-weight: bold;
 }
 
+.index_content3 {
+  margin: 8% 21% 0 20%;
+}
+
+.index_content3_title {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* 시간 카운터 */
 #counter {
   display: flex;
-	height: 167px;
-	color: orangered;
+  position: relative;
   font-size: 25px;
   font-weight: bolder;
 }
 
+#counter span {
+  margin: auto;
+  color: black;
+}
+
+#counter p {
+  margin: auto;
+  color: orangered;
+  font-size: 25px;
+}
+
+#counter b {
+  position: absolute;
+  top: 50px;
+  margin: 0;
+  color: #A7ABAD;
+  font-size: 14px;
+  width: 120%;
+}
+
+.index_content3_title button {
+  border: 0;
+  border-radius: 40px;
+  margin-top: 1%;
+  padding: 1% 3%;
+  font-size: 17px;
+  font-weight: bolder;
+  background-color: aliceblue;
+}
+
+.index_content3_title button:hover {
+  cursor: pointer;
+  background-color: #DDDDE1;
+}
+
+.index_content3_con {
+  display: flex;
+  margin-top: 3%;
+}
+
+.index_content3_con img {
+  width: 50%;
+  height: 350px;
+}
+
+.index_content3_con div {
+  background-color: #F8F8F9;
+  width: 50%;
+  height: 350px;
+}
+
+.index_content3_con div p {
+  padding: 3% 0 0 10%;
+}
+
+.index_content3_con div h2 {
+  padding: 0 0 0 10%;
+  margin-bottom: 20%;
+}
+
+.index_content3_con div a {
+  background-color: #FF5600;
+  color: white;
+  padding: 3% 5%;
+  font-size: 30px;
+  border-radius: 40px;
+  margin-left: 20%;
+}

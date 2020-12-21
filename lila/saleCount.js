@@ -1,5 +1,3 @@
-'use strict';
-
 function getTime() { 
     now = new Date(); 
     dday = new Date(2023,12,15,14,00,00); 
