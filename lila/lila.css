@@ -1,4 +1,7 @@
-/* 모달 */
+@charset "UTF-8";
+
+/* 메인 페이지 S */
+/* 모달 S */
 .modal{
   position: fixed;
   top: 0; left: 0;
@@ -59,8 +62,9 @@
 .hidden {
   display: none;
 }
+/* 모달 E */
 
-/* 메뉴바 */
+/* 메뉴바 S */
 .menu_nav {
     display: flex;
     justify-content: space-between;
@@ -75,7 +79,9 @@
 .menu_nav h1 a img {
   width: 20px;
 }
+/* 메뉴바 E */
 
+/* 캐러셀 S */
 .slider {
   width: 100%;
   height: 500px;
@@ -134,13 +140,13 @@
   height: 460px;
 }
 
-.slider_item p {
+.slider_item strong {
   font-size: 35px;
   margin: 2% 0 0 5%;
   color: white;
 }
 
-.slider_item p span {
+.slider_item strong span {
   font-size: 15px;
   color: #FECDD6;
 }
@@ -160,12 +166,14 @@
   width: 15%;
 }
 
+/* 프로그레스바 S */
 .prog{
   width: 350px;
   height: 1px;
   background: rgb(206, 197, 197);
   margin-top: 31px;
 }
+
 .progs{
   width: 0;
   height: 1px;
@@ -174,7 +182,9 @@
   text-align: center;
   line-height: 50px;
 }
+/* 프로그레스바 E */
 
+/* 프로그레스바 좌우버튼 S */
 .prevBtn {
   height: 30px;
   margin: 3.5% 3% 3.5% 3%;
@@ -204,6 +214,8 @@
 .nextBtn:hover {
   box-shadow: 0px 4px 21px 1px rgba(0, 0, 0, 0.1);
 }
+/* 프로그레스바 좌우버튼 E */
+/* 캐러셀 E */
 
 .index_content1 {
   margin: 5% 20% 0 20%;
@@ -242,16 +254,7 @@
   font-weight: bold;
 }
 
-.index_content3 {
-  margin: 8% 21% 0 20%;
-}
-
-.index_content3_title {
-  display: flex;
-  justify-content: space-between;
-}
-
-/* 시간 카운터 */
+/* 카운트다운 S */
 #counter {
   display: flex;
   position: relative;
@@ -277,6 +280,16 @@
   color: #A7ABAD;
   font-size: 14px;
   width: 120%;
+}
+/* 카운트다운 E */
+
+.index_content3 {
+  margin: 5% 21% 0 20%;
+}
+
+.index_content3_title {
+  display: flex;
+  justify-content: space-between;
 }
 
 .index_content3_title button {
@@ -325,5 +338,5 @@
   padding: 3% 5%;
   font-size: 30px;
   border-radius: 40px;
-  margin-left: 20%;
+  margin-left: 21%;
 }
