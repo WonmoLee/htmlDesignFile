@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 /* 메인 페이지 S */
-/* 모달 S */
-.modal{
+/* 최초 모달 S */
+.firstModal{
   position: fixed;
   top: 0; left: 0;
   width: 100%; height: 100%;
@@ -13,13 +13,13 @@
   opacity: 100;
 }
 
-.md_overlay {
+.fmd_overlay {
   background-color: rgba(0, 0, 0, 0.6);
   width: 100%; height: 100%;
   position: absolute;
 }
 
-.md_content {
+.fmd_content {
   width: 25%;
   height: 400px;
   position: relative;
@@ -30,22 +30,22 @@
   color: white;
 }
 
-.md_content p {
+.fmd_content p {
   font-size: 18px;
 }
 
-.md_content h2 {
+.fmd_content h2 {
   margin-bottom: 20%;
 }
 
-.md_content a {
+.fmd_content a {
   background-color: white;
   font-size: 25px;
   padding: 5% 20% 5% 20%;
   border-radius: 40px;
 }
 
-.close_button {
+.f_closeButton {
   margin-left: 90%;
   margin-top: 2%;
   background-color: orange;
@@ -55,14 +55,14 @@
   font-size: 25px;
 }
 
-.close_button:hover {
+.f_closeButton:hover {
   box-shadow: 0px 4px 21px 1px rgba(0, 0, 0, 0.1);
 }
 
-.hidden {
+.f_hidden {
   display: none;
 }
-/* 모달 E */
+/* 최초 모달 E */
 
 /* 메뉴바 S */
 .menu_nav {
@@ -294,6 +294,7 @@
 
 .index_content3_title button {
   border: 0;
+  outline: 0;
   border-radius: 40px;
   margin-top: 1%;
   padding: 1% 3%;
@@ -306,6 +307,70 @@
   cursor: pointer;
   background-color: #DDDDE1;
 }
+
+/* 혜택알림 모달 S */
+.noticeModal {
+  position: fixed;
+  top: 0; 
+  left: 0;
+  width: 100%; height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items : center;
+  z-index: 90;
+  opacity: 90;
+}
+
+.nmd_overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%; height: 100%;
+  position: absolute;
+}
+
+.nmd_content {
+  width: 25%;
+  height: 400px;
+  position: relative;
+  background-color: orange;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.20), 0 6px 6px rgba(0, 0, 0, 0.20);
+  color: white;
+}
+
+.nmd_content p {
+  font-size: 18px;
+}
+
+.nmd_content h2 {
+  margin-bottom: 20%;
+}
+
+.nmd_content a {
+  background-color: white;
+  font-size: 25px;
+  padding: 5% 20% 5% 20%;
+  border-radius: 40px;
+}
+
+.n_closeButton {
+  margin-left: 90%;
+  margin-top: 2%;
+  background-color: orange;
+  border: 0;
+  outline: 0;
+  color: white;
+  font-size: 25px;
+}
+
+.n_closeButton:hover {
+  box-shadow: 0px 4px 21px 1px rgba(0, 0, 0, 0.1);
+}
+
+.n_hidden {
+  display: none;
+}
+/* 혜택알림 모달 E */
 
 .index_content3_con {
   display: flex;
