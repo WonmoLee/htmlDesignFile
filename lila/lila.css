@@ -331,35 +331,46 @@
   width: 25%;
   height: 400px;
   position: relative;
-  background-color: orange;
+  background-color: white;
   text-align: center;
   border-radius: 6px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.20), 0 6px 6px rgba(0, 0, 0, 0.20);
-  color: white;
-}
-
-.nmd_content p {
-  font-size: 18px;
+  color: black;
 }
 
 .nmd_content h2 {
   margin-bottom: 20%;
 }
 
-.nmd_content a {
-  background-color: white;
-  font-size: 25px;
-  padding: 5% 20% 5% 20%;
-  border-radius: 40px;
+.k_method {
+  background-color: #FFE812;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 3% 10%;
+}
+
+.k_method:hover {
+  background-color: #fdf706;
+}
+
+.ano_method {
+  background-color: #f8f8fa;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 3% 14%;
+}
+
+.ano_method:hover {
+  background-color: #c0c0c0;
 }
 
 .n_closeButton {
   margin-left: 90%;
   margin-top: 2%;
-  background-color: orange;
+  background-color: white;
   border: 0;
   outline: 0;
-  color: white;
+  color: black;
   font-size: 25px;
 }
 
