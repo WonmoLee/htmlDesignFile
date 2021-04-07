@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="shortcut icon" href="/img/lilaLg.png" type="image/x-icon"/> -->
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="loginSignup.js"></script>
+    <title>점심추천서비스</title>
+</head>
+<body>
+    <main id ="login__main">
+        <section class="form">
+            <div class="join__box">
+            <div class="join__title">
+                <b>내 월세를 아껴줄 </b>
+            </div>
+            <div class="join__title2">
+                <b> 셰어하우스 우주</b>
+            </div>
+            <div>
+                <div class="username__check">
+                    <input id="username" type="text" name="username" value="" class="text-input" placeholder=" 아이디를 입력해주세요." required="required"/>
+                </div>
+                <input id="password" placeholder=" * 비밀번호 (8자리 이상)" class="text-input1" type="password" name="password" required="required"/>
+                <div id="signup_form"></div>
+                <div id="btn__goup">
+                    <button id="login_btn" class="btn1" onclick="javascript:loginProc()">이 정보로 로그인</button>
+                    <button id="signup_btn" class="btn2" onclick="javascript:signup()">이 정보로 회원가입</button>
+                </div>
+            </div>
+            <div class="text__notice">
+                <span style="color: black;"> SNS 로그인 서비스 운영을 중단</span>합니다
+                <div>SNS 로그인 이용자는 '가입하셨던 이메일' 을 입력하여</div>
+                <div>추가 로그인 정보를 등록 후 이용해주세요 (최초 1회 입력)</div>
+            </div>
+            <div class="social_login">
+                <div class="googleLogin">
+                    <a href="/oauth2/authorization/google"><img src="img/googlebtn.png"></a>
+                </div>
+                <div class="facebookLogin">
+                    <a href="/oauth2/authorization/facebook"><img src="img/facebookbtn.png"></a>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
